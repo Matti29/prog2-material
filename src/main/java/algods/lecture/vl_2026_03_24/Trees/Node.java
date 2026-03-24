@@ -40,6 +40,12 @@ public class Node {
         return null;
     }
 
+    /// Liefert die Höhe des Baumes ab `this`.
+    int height() {
+        // TODO
+        return 0;
+    }
+
     public void printTree() {
         if (this.isEmpty()) {
             return;
